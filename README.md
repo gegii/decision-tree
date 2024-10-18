@@ -24,7 +24,7 @@ npm install
 
 ## Usage
 
-In the `src/main.ts` file, you can specify the current date by modifying the `decisionTreeJson` based on the commented condition. If you change the condition to match today's date, the application will send an SMS. Conversely, if you specify any other date, it will send emails. This behavior is determined by the entire structure of the `decisionTreeJson`.
+In the `src/main.ts` file, you can specify the current date by modifying the `decisionTreeJson` based on the commented condition. The decision tree operates based on the condition property set to either true or false. If you change the condition to match today’s date and set it to true, the application will send an SMS. Conversely, if you specify any other date and set the condition to false, it will send emails. This behavior is determined by the entire structure of the `decisionTreeJson`.
 
 and run:
 
